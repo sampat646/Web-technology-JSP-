@@ -1,0 +1,14 @@
+.h2 {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  justify-content: space-evenly;
+  background-color: rgb(119, 119, 222);
+}
+a {
+  color: #fff;
+}
+body {
+  background-color: #3d3434;
+  color: #fff;
+}
