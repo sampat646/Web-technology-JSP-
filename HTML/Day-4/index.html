@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration form</title>
+    <style>
+        *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Jost';
+        }
+        body{
+            height: 100vh;
+            display: grid;
+            place-items: center;
+            color: #000;
+            background-image: linear-gradient(rgba(1, 70, 98, 0.4),rgba(170, 223, 242, 0.4)),url(./compressed_image\ \(6\).jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        form{
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 8px;
+            padding: 50px;
+            width: 30vw;
+            background-color: rgba(78, 146, 218, 0.5);
+            border-radius: 24px;
+            box-shadow: rgba(55, 60, 65, 0.4) 0px 8px 24px;
+        }
+        .gender{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 8px;
+            padding: 10px;
+        }
+        .g1{
+            margin-right: 53px;
+        }
+        .save{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 4px;
+        }
+        .btns{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 32px;
+
+        }
+        input{
+            padding: 8px 20px;
+            border-radius: 10px;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            border-style: none;
+            opacity: 0.6;
+        }
+        button{
+            padding: 8px 30px;
+            border-radius: 12px;
+            background-color: rgb(10, 165, 226);
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; 
+            border: 1px solid #fff;
+            color: #362e2e;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        .heading{
+            text-align: center;
+        }
+    </style>
+  </head>
+  <body>
+      <form action="" method="post">
+        <h1 class="heading">Registeration form</h1>   
+      <label for="first_name">First Name</label>
+      <input type="text" name="fname" id="first_name" required /> 
+
+      <label for="last_name">Last Name</label>   
+      <input type="text" name="lname" id="last_name" required />  
+
+      <div class="gender">
+         <p class="g1">Select Gender:</p>
+        <input type="radio" name="Gender" id="male" value="male"   <label
+          for="male"
+          >Male</label
+        >
+        <input type="radio" name="Gender" id="female" value="Female"   <label
+          for="female"
+          >Female</label>
+     </div>
+           
+
+      <label for="email">email</label>   
+      <input type="email" name="email" id="email" required />
+
+      <label for="password">password</label>
+      <input type="password" name="password" id="password" required /> 
+
+      <label for="DOB">Date of Birth</label>
+      <input type="date" name="DOB" id="DOB" required /> 
+
+      <label for="age">Age</label>
+      <input type="number" name="age" id="age" required />
+     <div class="save">
+        <input type="checkbox" name="Save_pass" id="Save_pass" /><label
+        for="Save_pass"
+        >Save password</label
+      >
+     </div>
+    <div class="btns">
+        <button type="submit">submit</button>
+        <button type="reset">Reset</button>
+    </div>
+    </form>
+  </body>
+</html>
