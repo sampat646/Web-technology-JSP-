@@ -1,0 +1,62 @@
+/* p::before {
+  content: "Read this: ";
+}
+p::after {
+  content: "don't read this";
+}
+p:nth-child(2){
+    color: red;
+}
+p::first-letter{
+    font-size: larger;
+    color: rgb(0, 98, 66);
+}
+body:first-child{
+    color: green;
+}
+p::first-line{
+    color: pink;
+}
+p::selection{
+    background-color: aquamarine;
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "Jost"; */
+}
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.box {
+  display: grid;
+  place-items: center;
+}
+
+.box-1 {
+  width: 200px;
+  aspect-ratio: 1;
+  background-color: rgba(245, 155, 155, 0.56);
+  border: 3px solid red;
+  color: red;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 10px 4px rgba(246, 171, 171, 0.673);
+}
+.box-2 {
+  width: 200px;
+  aspect-ratio: 1;
+  background-color: rgba(155, 167, 245, 0.56);
+  border: 3px solid blue;
+  color: blue;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 10px 4px rgba(179, 188, 243, 0.673);
+}

@@ -1,0 +1,71 @@
+@font-face {
+    font-family: h2wala;
+    src: url(./static/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: pwala;
+    src: url(./static/Roboto-Medium.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost";
+}
+body {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  background-color: rgba(255, 217, 1, 0.62);
+}
+.card {
+  height: 450px;
+  width: 370px;
+  background-color: aquamarine;
+  padding: 20px;
+  border-radius: 14px;
+  border: 1px solid black;
+  box-shadow: 8px 8px 3px black;
+  background-color: antiquewhite;
+}
+.card img {
+  width: 100%;
+  border-radius: 18px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 22px;
+  letter-spacing: 1.5;
+  word-spacing: 1px;
+}
+.content h2 {
+  font-size: 23px;
+  font-family: h2wala;
+}
+
+.content #publish {
+  font-size: 18px;
+  font-family: pwala;
+}
+button {
+  margin-top: 12px;
+  background-color: rgb(174, 174, 9);
+  border-style: none;
+  padding: 4px 15px;
+  font-size: 18px;
+  border-radius: 2px;
+  font-weight: 600;
+}
+#para{
+    color: grey !important;
+    font-family: pwala;
+}
+footer{
+  height: 80vh;
+  width: 100%;
+  background-color: aquamarine;
+}

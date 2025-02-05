@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        height: 100vh;
+        width: 100%;
+        display: grid;
+        place-items: center;
+      }
+      .main {
+        height: 200px;
+        width: 200px;
+        background-color: cadetblue;
+        transition: all 3s;
+        color: #fff;
+        display: grid;
+        place-items: center;
+        border-radius: 12px;
+        border-bottom-left-radius: 83px;
+        border-bottom-right-radius: 83px;
+        font-size: 43px;
+      }
+      .eyes{
+        height: 12vh;
+        background-color: black;
+        width: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+      .Upper {
+        height: 5vh;
+        background-color: red;
+      }
+     
+      div:hover {
+        transform: rotate(60deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="eyes">
+        <div class="1"></div>
+        <div class="2"></div>
+      </div>
+      <div class="Upper"></div>
+    </div>
+  </body>
+</html>

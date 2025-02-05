@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost";
+}
+body {
+  height: 100vh;
+  width: 100%;
+  background-image: radial-gradient(
+      rgba(163, 186, 247, 0.4),
+      rgba(158, 237, 127, 0.4),
+      rgba(242, 173, 127, 0.4)
+    ),
+    url(./krsn6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.matra {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  align-content: flex-end;
+}
+
+.para {
+  cursor: none;
+  margin-bottom: 43px;
+  color: rgb(255, 255, 0);
+  font-size: 24px;
+  text-align: center;
+  text-decoration: overline;
+  text-shadow: 0.5px 0.5px 20px white;
+  font-weight: 500;
+  /* background-color: rgba(242, 173, 127, 0.4); */
+}
+p::selection {
+  background-color: transparent;
+}

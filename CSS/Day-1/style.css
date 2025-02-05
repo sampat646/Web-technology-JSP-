@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost";
+}
+body {
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-evenly;
+  background-color: rgba(237, 144, 144, 0.4);
+  padding: 10px;
+  border: 2px solid red;
+}
+header {
+  background-color: rgba(237, 144, 144, 0.4);
+  padding: 10px;
+  border: 2px solid red;
+  text-align: center;
+}
+main {
+  height: 85vh;
+  text-align: center;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: aqua;
+}
+aside {
+  border: 2px solid red;
+}
+section {
+  border: 2px solid red;
+}
+article {
+  border: 2px solid red;
+}
+footer{
+  background-color: rgba(237, 144, 144, 0.4);
+  padding: 4px;
+  text-align: center;
+}

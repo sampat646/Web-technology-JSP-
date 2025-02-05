@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost";
+}
+body {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+.position-container {
+  height: 100vh;
+  width: 50%;
+  /* background-color: aqua; */
+}
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.position-container .box1 {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+.box2{
+    bottom: 0;
+    left: 0;
+}
+.box3{
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.box4{
+    bottom: 0;
+    right: 0;
+}
+.secondpage{
+    height: 100vh;
+    width: 100%;
+    background-color: aquamarine;
+}
